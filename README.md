@@ -1,4 +1,6 @@
-# NovelReader
+# NovelReader_androidx 
+原作者地址：https://github.com/newbiechen1024/NovelReader 
+升级了各种第三方库到最新版，以下是原作者原文
 
 基于"任阅"的改进追书App。
 
