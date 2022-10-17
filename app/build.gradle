@@ -1,0 +1,116 @@
+plugins {
+    id 'com.android.application'
+    id 'org.greenrobot.greendao'
+//    id "io.objectbox"
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.example.newbiechen.ireader"
+        minSdkVersion 25
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+//    buildToolsVersion '26.0.2'
+}
+
+greendao{
+    schemaVersion 3
+    daoPackage 'com.example.newbiechen.ireader.model.gen'
+    targetGenDir 'src/main/java'
+}
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/qichuan/maven/'
+    }
+}
+
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.2', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    /** 网络请求库 */
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    /** 图片请求库 */
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+//    implementation('com.github.ihsanbal:LoggingInterceptor:3.1.0') {
+//        exclude group: 'org.json', module: 'json'
+//    }
+
+//    implementation deps.android.appcompat
+//    implementation deps.android.design
+//    implementation deps.android.support
+//    implementation deps.android.cardview
+    //View injection
+//    implementation deps.butterknife.runtime
+//    annotationProcessor deps.butterknife.compiler
+
+//    implementation 'com.jakewharton:butterknife:8.5.1'
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    //RxJava
+//    implementation deps.reactivex.rxandroid
+//    implementation deps.reactivex.rxjava2
+    implementation "io.reactivex.rxjava3:rxjava:3.1.5"
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+
+    //NetWork
+//    implementation deps.okhttp.runtime
+
+//    implementation deps.retrofit.runtime
+//    implementation deps.retrofit.gson
+//    implementation deps.retrofit.rxjava2
+
+    //ImageLoader
+//    implementation deps.glide.runtime
+    /*implementation deps.glide.compiler*/
+    //ORM Database
+//    implementation deps.greendao.runtime
+//    testImplementation deps.testing.junit
+    implementation 'org.greenrobot:greendao:3.3.0'
+
+    // Android Leak Analysis
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8'
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android-process:2.8'
+//    releaseImplementation = "com.squareup.leakcanary:leakcanary-android-no-op:1.5.4"
+//    debugImplementation = "com.squareup.leakcanary:leakcanary-android:1.5.4"
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8'
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android-p31rocess:2.8'
+
+    // OpenCC to convert Simp. Chinese to Trad. Chinese
+//    implementation "com.zqc.opencc.android.lib:lib-opencc-android:0.8.0"
+
+    // AndroidTagGroup
+    implementation 'me.gujun.android.taggroup:library:1.4@aar'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+}

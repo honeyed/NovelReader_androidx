@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.newbiechen.ireader">
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true" >
+        <activity android:name=".ui.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+        </activity>
+        <activity android:name=".ui.activity.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.BookDiscussionActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.DiscDetailActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.BillboardActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.BookSortActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.BookSortListActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.SearchActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.BookListActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.BookListDetailActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.BillBookActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.OtherBillBookActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.BookDetailActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.DownloadActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.ReadActivity" android:exported="true">
+        </activity>
+        <activity android:name=".ui.activity.FileSystemActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.CommunityActivity" android:exported="true"/>
+        <activity android:name=".ui.activity.MoreSettingActivity" android:exported="true"/>
+
+        <activity android:name="com.squareup.leakcanary.internal.DisplayLeakActivity" android:exported="true"/>
+        <service
+            android:name=".service.DownloadService"
+            android:exported="true" />
+    </application>
+    
+    
+    <!--********************************permission************************************-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest>

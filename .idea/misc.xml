@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/seekbar_bg.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/seekbar_thumb.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/selector_btn_book_list.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/selector_btn_read_setting.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/selector_category_bg.xml" value="0.135" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/selector_category_load.xml" value="0.135" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/selector_category_unload.xml" value="0.135" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/shape_book_list_nor.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/shape_book_list_press.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/shape_btn_read_setting_checked.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/shape_btn_read_setting_normal.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/drawable/shape_common_gray_corner.xml" value="0.1475" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_base_tab.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_bilboard.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_book_detail.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_book_discussion.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_book_list.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_book_sort.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_book_sort_list.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_community.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_discussion_detail.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_file_system.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_main.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_more_setting.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_read.xml" value="0.20625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_refresh_list.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_search.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_splash.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/activity_test.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/dialog_collect_tip.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/dialog_delete.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/dialog_read_setting.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/dialog_sex_choose.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/footer_book_shelf.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_bookshelf.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_community.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_file_category.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_find.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_local_book.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_refresh_list.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/fragment_scroll_refresh_list.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/header_book_list_detail.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/header_disc_detail.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_billboard_group.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_billborad_child.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_book_brief.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_book_list_info.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_category.xml" value="0.22826086956521738" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_coll_book.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_comment.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_disc_comment.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_disc_review.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_download.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_file.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_horizon_tag.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_hot_comment.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_read_bg.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/item_selector.xml" value="0.12395833333333334" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/layout_disc_detail.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/scroll_title_indicator.xml" value="0.11197916666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/toolbar.xml" value="0.1890625" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_empty.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_error.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_load_more.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_loading.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_net_error.xml" value="0.19479166666666667" />
+        <entry key="..\:/novel/NovelReader/app/src/main/res/layout/view_nomore.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MarkdownProjectSettings">
+    <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="true" highlightPreviewType="NONE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="true" showSelectionInPreview="true">
+      <PanelProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.panel" providerName="Default - Swing" />
+      </PanelProvider>
+    </PreviewSettings>
+    <ParserSettings>
+      <PegdownExtensions>
+        <option name="ABBREVIATIONS" value="false" />
+        <option name="ANCHORLINKS" value="true" />
+        <option name="ASIDE" value="false" />
+        <option name="ATXHEADERSPACE" value="true" />
+        <option name="AUTOLINKS" value="true" />
+        <option name="DEFINITIONS" value="false" />
+        <option name="FENCED_CODE_BLOCKS" value="true" />
+        <option name="FOOTNOTES" value="false" />
+        <option name="HARDWRAPS" value="false" />
+        <option name="INSERTED" value="false" />
+        <option name="QUOTES" value="false" />
+        <option name="RELAXEDHRULES" value="true" />
+        <option name="SMARTS" value="false" />
+        <option name="STRIKETHROUGH" value="true" />
+        <option name="SUBSCRIPT" value="false" />
+        <option name="SUPERSCRIPT" value="false" />
+        <option name="SUPPRESS_HTML_BLOCKS" value="false" />
+        <option name="SUPPRESS_INLINE_HTML" value="false" />
+        <option name="TABLES" value="true" />
+        <option name="TASKLISTITEMS" value="true" />
+        <option name="TOC" value="false" />
+        <option name="WIKILINKS" value="true" />
+      </PegdownExtensions>
+      <ParserOptions>
+        <option name="COMMONMARK_LISTS" value="false" />
+        <option name="DUMMY" value="false" />
+        <option name="EMOJI_SHORTCUTS" value="true" />
+        <option name="FLEXMARK_FRONT_MATTER" value="false" />
+        <option name="GFM_LOOSE_BLANK_LINE_AFTER_ITEM_PARA" value="false" />
+        <option name="GFM_TABLE_RENDERING" value="true" />
+        <option name="GITBOOK_URL_ENCODING" value="false" />
+        <option name="GITHUB_EMOJI_URL" value="false" />
+        <option name="GITHUB_LISTS" value="true" />
+        <option name="GITHUB_WIKI_LINKS" value="true" />
+        <option name="JEKYLL_FRONT_MATTER" value="false" />
+        <option name="SIM_TOC_BLANK_LINE_SPACER" value="true" />
+      </ParserOptions>
+    </ParserSettings>
+    <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false" addPageHeader="true">
+      <GeneratorProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.generator" providerName="Default Swing HTML Generator" />
+      </GeneratorProvider>
+      <headerTop />
+      <headerBottom />
+      <bodyTop />
+      <bodyBottom />
+    </HtmlSettings>
+    <CssSettings previewScheme="UI_SCHEME" cssUri="" isCssUriEnabled="false" isCssTextEnabled="false" isDynamicPageWidth="true">
+      <StylesheetProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.css" providerName="Default Swing Stylesheet" />
+      </StylesheetProvider>
+      <ScriptProviders />
+      <cssText />
+    </CssSettings>
+    <HtmlExportSettings updateOnSave="false" parentDir="$ProjectFileDir$" targetDir="$ProjectFileDir$" cssDir="" scriptDir="" plainHtml="false" imageDir="" copyLinkedImages="false" imageUniquifyType="0" targetExt="" useTargetExt="false" noCssNoScripts="false" linkToExportedHtml="true" exportOnSettingsChange="true" regenerateOnProjectOpen="false" />
+    <LinkMapSettings>
+      <textMaps />
+    </LinkMapSettings>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="13">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>TestOnlyProblems</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
